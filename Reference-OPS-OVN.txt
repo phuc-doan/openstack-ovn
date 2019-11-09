@@ -1,0 +1,71 @@
+- OVN with DevStack:
+https://docs.openstack.org/networking-ovn/train/contributor/testing.html
+https://opendev.org/openstack/devstack.git
+
+- OVN with OpenStack:
+https://docs.openstack.org/networking-ovn/train/
+https://docs.openstack.org/networking-ovn/train/install/manual.html
+https://packages.ubuntu.com/bionic/python/python-networking-ovn
+https://docs.openstack.org/networking-ovn/train/admin/refarch/refarch.html
+https://docs.openstack.org/networking-ovn/train/contributor/design/metadata_api.html
+https://docs.openstack.org/networking-ovn/train/faq/index.html
+https://docs.openstack.org/networking-ovn/train/contributor/design/metadata_api.html
+https://www.slideshare.net/masonmei37/ovn-vancouver
+
+
+
+
+
+
+
+
+	- FAQ:
+	
+	
+	https://numans.blog/
+
+	- 
+	https://access.redhat.com/documentation/en-us/red_hat_openstack_platform/13/html/networking_with_open_virtual_network/planning_your_ovn_deployment#high_availability_with_pacemaker_and_dvr
+
+
+- http://blog.oddbit.com/post/2014-01-19-show-ovs-externalids/
+
+
+- 
+https://access.redhat.com/documentation/en-us/red_hat_openstack_platform/14/html/networking_with_open_virtual_network/planning_your_ovn_deployment#layer_3_high_availability_with_ovn
+https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/presentation-media/Berlin-Summit-Presentation.pdf
+https://blog.zhaw.ch/icclab/setting-up-container-based-openstack-with-ovn-networking/
+
+- 
+https://galsagie.github.io/2015/05/30/ovn-deep-dive/
+https://galsagie.github.io/2015/05/11/dragonflow-2/
+https://galsagie.github.io/2015/11/23/ovn-l3-deepdive/
+https://galsagie.github.io/2015/01/16/ovn-distributed-controller/
+https://galsagie.github.io/2015/04/26/ovn-containers/
+http://blog.shin.do/2015/12/ovn-open-virtual-network-introduction/
+https://ajo.es/ovn-distributed-ew-on-vlan/
+https://tonydeng.github.io/sdn-handbook/ovs/ovn-openstack.html
+
+- Advanced:
+https://developers.redhat.com/blog/2018/11/08/how-to-create-an-open-virtual-network-distributed-gateway-router/
+
+
+
+- HA:
+https://github.com/ovn-org/ovn-kubernetes/blob/master/docs/ha.md
+http://docs.openvswitch.org/en/latest/topics/integration/
+https://slideplayer.com/slide/15371794/
+https://github.com/hocchudong/ghichep-pacemaker-corosync/blob/master/docs/pcmk-create-cluster.md
+
+
+
+
+
+- Performance:
+https://thesaitech.wordpress.com/2019/02/15/a-comparative-study-of-openstack-networking-architectures/
+https://blog.russellbryant.net/2016/12/19/comparing-openstack-neutron-ml2ovs-and-ovn-control-plane/
+https://blog.russellbryant.net/category/ovs/ovn/
+
+- HA Database nodes:
+http://docs.openvswitch.org/en/latest/topics/ovsdb-replication/
+
