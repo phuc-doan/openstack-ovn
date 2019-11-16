@@ -7,8 +7,6 @@
 - [4. Thực hiện chạy scripts trên từng node Controller, node Databse, các nodes Network, và các nodes Compute](#4-thực-hiện-chạy-scripts-trên-từng-node-controller-node-databse-các-nodes-network-và-các-nodes-compute)
 - [5. Sau mỗi lần khởi động lại các nodes Network, và các nodes Compute](#5-sau-mỗi-lần-khởi-động-lại-các-nodes-network-và-các-nodes-compute)
 
-
-
 # 1. Mô hình
 \- Mô hình cài đặt OpenStack Train gồm 1 node Controller, 1 node Databse , 3 node Network và nhiều node Compute.  
 \- Cài đặt các project: Keystone, Glance, Nova, Neutron, Horizon.  
