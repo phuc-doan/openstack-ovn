@@ -13,6 +13,12 @@ https://docs.openstack.org/networking-ovn/train/contributor/design/metadata_api.
 https://www.slideshare.net/masonmei37/ovn-vancouver
 http://blog.shin.do/2015/12/ovn-open-virtual-network-introduction/
 
+- Regenerating OVN DB from Neutron DB:
+https://bugs.launchpad.net/networking-ovn/+bug/1723701
+https://bugs.launchpad.net/networking-ovn/+bug/1834498
+https://bugs.launchpad.net/networking-ovn/+bug/1816033
+
+
 - Details OpenStack-OVN (not seen):  
 https://galsagie.github.io/2015/05/30/ovn-deep-dive/
 https://galsagie.github.io/2015/05/11/dragonflow-2/
@@ -32,15 +38,9 @@ https://blog.zhaw.ch/icclab/setting-up-container-based-openstack-with-ovn-networ
 https://galsagie.github.io/2015/04/26/ovn-containers/
 https://blog.russellbryant.net/
 
-- Regenerating OVN DB from Neutron DB:
-https://bugs.launchpad.net/networking-ovn/+bug/1723701
-https://bugs.launchpad.net/networking-ovn/+bug/1834498
-https://bugs.launchpad.net/networking-ovn/+bug/1816033
-
 - Migrate form to ML2/OVS to ML2/OVN:
 https://github.com/openstack/networking-ovn/tree/master/migration
 https://access.redhat.com/documentation/en-us/red_hat_openstack_platform/14/html/networking_with_open_virtual_network/migrating-ml2ovs-to-ovn
-
 
 - Đọc thêm:
 https://www.cnblogs.com/gaozhengwei/category/1027015.html
