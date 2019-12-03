@@ -1,13 +1,13 @@
 
-# 4. Tái tạo OVN Database từ Neutron Database
+# V. Tái tạo OVN Database từ Neutron Database
 
 # MỤC LỤC
-- [4.1. Đặt vấn đề](#41-Đặt-vấn-đề)
-- [4.2. LAB](#42-lab)
-  - [4.2.1. Mô hình](#421-mô-hình)
-  - [4.2.2. Thực hiện](#422-thực-hiện)
+- [1. Đặt vấn đề](#1-Đặt-vấn-đề)
+- [2. LAB](#2-lab)
+  - [2.1. Mô hình](#21-mô-hình)
+  - [2.2. Thực hiện](#22-thực-hiện)
 
-# 4.1. Đặt vấn đề
+# 1. Đặt vấn đề
 \- Nếu vì 1 lý do nào đó mà OVN Northbound DB và OVN Soundbound DB mất mát, ta có thể khôi phục OVN DB đó bằng Neutron DB.  
 \- OVN tạo ra thêm 3 tables trong `neutron` database:  
 - ovn_hash_ring
@@ -31,15 +31,15 @@ MariaDB [neutron]> select * from ovn_hash_ring;
 6 rows in set (0.000 sec)
 ```
 
-# 4.2. LAB
-## 4.2.1. Mô hình
+# 2. LAB
+## 2.1. Mô hình
 <img src="../images/4.Regenerating-OVN-DB-1.png" />  
 <img src="../images/4.Regenerating-OVN-DB-2.png" />  
 <img src="../images/4.Regenerating-OVN-DB-3.png" />
 
 \- Ở đây tôi chỉ cài 1 Controller, 1 Database, 2 Network, 2 Compute.
 
-## 4.2.2. Thực hiện
+## 2.2. Thực hiện
 \- Trên node Database:  
 - Thực hiện lệnh:  
 ```
