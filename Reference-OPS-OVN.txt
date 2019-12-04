@@ -18,6 +18,12 @@ https://bugs.launchpad.net/networking-ovn/+bug/1723701
 https://bugs.launchpad.net/networking-ovn/+bug/1834498
 https://bugs.launchpad.net/networking-ovn/+bug/1816033
 
+- OPS use ML2/OVN with QoS:
+https://docs.openstack.org/networking-ovn/2.0.1/install.html
+https://bugs.launchpad.net/networking-ovn/+bug/1850609
+https://bugzilla.redhat.com/show_bug.cgi?id=1546996
+https://bugzilla.redhat.com/show_bug.cgi?id=1580542
+
 
 - Details OpenStack-OVN (not seen):  
 https://galsagie.github.io/2015/05/30/ovn-deep-dive/
