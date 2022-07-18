@@ -28,6 +28,7 @@
 
 # 1. Giới thiệu
 \- OVN cung cấp virtual networking cho Open vSwitch và là 1 thành phần của Open vSwitch project. Project `networking-ovn` cung cấp tích hợp giữa OpenStack Neutron và OVN.  
+
 \- **Sự khác biệt chính giữa ML2/ovs và ML2/networking-ovn**  
 
 |Chi tiết|ml2/ovs|ml2/networking-ovn|
