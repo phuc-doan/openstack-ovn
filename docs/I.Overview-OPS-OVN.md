@@ -31,7 +31,7 @@
 \- **Sự khác biệt chính giữa ML2/ovs và ML2/networking-ovn**  
 
 |Chi tiết|ml2/ovs|ml2/networking-ovn|
-|---|---|---|---|
+|---|---|---|
 |giao tiếp giữa các agent/server|rabbit mq messaging + RPC.|ovsdb protocol trên NorthBound và SouthBound databases.|
 |l3ha API|routers có trường "`ha`" có thể bị vô hiệu hóa hoặc kích hoạt bởi admin với mặc định triển khai|routers không có trường "`ha`", và sẽ sử dụng HA ngay khi có nhiều hơn 1 node network|
 |l3ha dataplane|qrouter namespace với keepalived proccess và 1 internal ha network cho lưu lượng VRRP|`ovn-controller` cấu hình các OpenFlow rules cụ thể, và kích hoạt BFD protocol qua tunnel endpoints để phát hiện csac vấn đề kết nối với các nodes|
